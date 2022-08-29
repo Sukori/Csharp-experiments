@@ -1,0 +1,15 @@
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/bin/Debug/net6.0/ProjectEuler
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/bin/Debug/net6.0/ProjectEuler.deps.json
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/bin/Debug/net6.0/ProjectEuler.runtimeconfig.json
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/bin/Debug/net6.0/ProjectEuler.dll
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/bin/Debug/net6.0/ref/ProjectEuler.dll
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/bin/Debug/net6.0/ProjectEuler.pdb
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/obj/Debug/net6.0/ProjectEuler.csproj.AssemblyReference.cache
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/obj/Debug/net6.0/ProjectEuler.GeneratedMSBuildEditorConfig.editorconfig
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/obj/Debug/net6.0/ProjectEuler.AssemblyInfoInputs.cache
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/obj/Debug/net6.0/ProjectEuler.AssemblyInfo.cs
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/obj/Debug/net6.0/ProjectEuler.csproj.CoreCompileInputs.cache
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/obj/Debug/net6.0/ProjectEuler.dll
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/obj/Debug/net6.0/ref/ProjectEuler.dll
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/obj/Debug/net6.0/ProjectEuler.pdb
+/media/sukori/Media/code/C#/Csharp-experiments/ProjectEuler/obj/Debug/net6.0/ProjectEuler.genruntimeconfig.cache
