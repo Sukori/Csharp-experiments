@@ -1,6 +1,6 @@
 # Démarrer un projet C# avec la console de vscode
 
-## Créer le projet
+## Créer le projet Ubuntu
 
 ```dotnet new console```
 
@@ -14,6 +14,12 @@ Par défaut dans le projectInitTemplate, le program.cs est totalement vide à pa
 ## Run le programme
 
 ```dotnet run```
+
+## Créer le projet VS 2022 Community
+
+Interface visuelle > nouveau projet > sélectionne type (ici console app) > Nomme le projet > sélectionne dossier > vérifie la version de dtonet (ici 6.0 était le seul choix possible) > check la boite ne pas utiliser de fonction de niveau supérieur
+
+En fait, si la boite est décochée, le template crée un fichier .cs qui contient seulement le hello world. Si la boite est cochée, on a tout le code avec la fonction Main.
 
 ## Problème
 
@@ -37,7 +43,7 @@ J'ai update le fichier app.config de visual Studio qui spécifie d'utiliser la v
 
 BON, je vire VS 2019 et j'installe VS 2022. C'est pas mal comme plan non ? (franchement ça aurait pu faire la mise à jour au lieu d'installer la version la plus récente de 2019 ...)
 
-En attendant, VS code Windows a détécté un fichier init manquant et l'a ajouté. La compilation fonctionne...
+En attendant, VS code Windows a détecté un fichier init manquant et l'a ajouté. La compilation fonctionne...
 VS 2022 fonctionne sans faire d'histoires...
 
 Bon. Vérifier les mises à jour de VS chaque année -.- Le setup est prêt et fonctionnel pour alterner entre toutes les plateformes... KA ? -> yes
