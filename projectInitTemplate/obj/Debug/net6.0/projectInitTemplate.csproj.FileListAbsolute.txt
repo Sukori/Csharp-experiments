@@ -1,0 +1,15 @@
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/obj/Debug/net6.0/projectInitTemplate.csproj.AssemblyReference.cache
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/obj/Debug/net6.0/projectInitTemplate.GeneratedMSBuildEditorConfig.editorconfig
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/obj/Debug/net6.0/projectInitTemplate.AssemblyInfoInputs.cache
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/obj/Debug/net6.0/projectInitTemplate.AssemblyInfo.cs
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/obj/Debug/net6.0/projectInitTemplate.csproj.CoreCompileInputs.cache
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/bin/Debug/net6.0/projectInitTemplate
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/bin/Debug/net6.0/projectInitTemplate.deps.json
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/bin/Debug/net6.0/projectInitTemplate.runtimeconfig.json
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/bin/Debug/net6.0/projectInitTemplate.dll
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/bin/Debug/net6.0/ref/projectInitTemplate.dll
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/bin/Debug/net6.0/projectInitTemplate.pdb
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/obj/Debug/net6.0/projectInitTemplate.dll
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/obj/Debug/net6.0/ref/projectInitTemplate.dll
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/obj/Debug/net6.0/projectInitTemplate.pdb
+/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/obj/Debug/net6.0/projectInitTemplate.genruntimeconfig.cache
