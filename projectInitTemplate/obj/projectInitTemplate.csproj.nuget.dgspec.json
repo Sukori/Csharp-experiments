@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\projectInitTemplate\\projectInitTemplate.csproj": {}
+    "/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/projectInitTemplate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\projectInitTemplate\\projectInitTemplate.csproj": {
+    "/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/projectInitTemplate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\projectInitTemplate\\projectInitTemplate.csproj",
+        "projectUniqueName": "/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/projectInitTemplate.csproj",
         "projectName": "projectInitTemplate",
-        "projectPath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\projectInitTemplate\\projectInitTemplate.csproj",
-        "packagesPath": "C:\\Users\\Sukori\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\projectInitTemplate\\obj\\",
+        "projectPath": "/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/projectInitTemplate.csproj",
+        "packagesPath": "/home/sukori/.nuget/packages/",
+        "outputPath": "/media/sukori/Media/code/C#/Csharp-experiments/projectInitTemplate/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sukori\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/sukori/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,8 +43,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -53,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
         }
       }
     }

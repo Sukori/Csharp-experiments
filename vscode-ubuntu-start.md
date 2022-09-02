@@ -8,9 +8,8 @@
 
 Par défaut dans le projectInitTemplate, le program.cs est totalement vide à par un console write... Il manque le boilerplate code. Erreur de config de ma part ? A investiguer, mais étrange.
 
-```namespace ProjectInitTemplate{class Program{static void Main(string[] args){Console.WriteLine("Hello, World!");}}}```
+```using System; namespace ProjectInitTemplate{class Program{static void Main(string[] args){Console.WriteLine("Hello, World!");}}}```
 
-Pour une raison, vsode ne veut pas voir "System" référencé en haut de code. Peut tre déjà inclus dans dotnet 6 dans ubuntu ? à voir comment Visual Studio réagit sous windows.
 
 ## Run le programme
 
@@ -41,4 +40,4 @@ BON, je vire VS 2019 et j'installe VS 2022. C'est pas mal comme plan non ? (fran
 En attendant, VS code Windows a détécté un fichier init manquant et l'a ajouté. La compilation fonctionne...
 VS 2022 fonctionne sans faire d'histoires...
 
-Bon. Vérifier les mises à jour de VS chaque année -.- Le setup est prêt et fonctionnel pour alterner entre toutes les plateformes... KA ?
+Bon. Vérifier les mises à jour de VS chaque année -.- Le setup est prêt et fonctionnel pour alterner entre toutes les plateformes... KA ? -> yes
