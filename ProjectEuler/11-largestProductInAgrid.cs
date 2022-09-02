@@ -57,7 +57,7 @@ namespace ProjectEuler
   {
     static void Main(string[] args)
     {
-          
+          Console.WriteLine("Hello World");
     }
   }
 }
