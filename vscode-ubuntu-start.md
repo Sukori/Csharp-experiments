@@ -21,6 +21,8 @@ Interface visuelle > nouveau projet > sélectionne type (ici console app) > Nomm
 
 En fait, si la boite est décochée, le template crée un fichier .cs qui contient seulement le hello world. Si la boite est cochée, on a tout le code avec la fonction Main.
 
+**Note**: Cela fonctionne sans problèmes avec VScode sur Ubuntu. Super, plus de problèmes d'environnement !
+
 ## Problème
 
 Cela fonctionne dans vscode Ubuntu, mais si j'importe tout cela sur windows avec Visual Studio, alors je reçois l'exception suivante:
