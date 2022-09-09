@@ -62,7 +62,7 @@ namespace ProjectEuler
   class Problem11
   {
 
-    int[,] tableau = new int[20,20] {{08, 02, 22, 97, 38, 15, 00, 40, 00, 75, 04, 05, 07, 78, 52, 12, 50, 77, 91, 08,},
+    static int[,] tableau = new int[20,20] {{08, 02, 22, 97, 38, 15, 00, 40, 00, 75, 04, 05, 07, 78, 52, 12, 50, 77, 91, 08,},
                                       {49, 49, 99, 40, 17, 81, 18, 57, 60, 87, 17, 40, 98, 43, 69, 48, 04, 56, 62, 00},
                                       {81, 49, 31, 73, 55, 79, 14, 29, 93, 71, 40, 67, 53, 88, 30, 03, 49, 13, 36, 65},
                                       {52, 70, 95, 23, 04, 60, 11, 42, 69, 24, 68, 56, 01, 32, 56, 71, 37, 02, 36, 91},
@@ -85,8 +85,26 @@ namespace ProjectEuler
 
     static void Main(string[] args)
     {
+      int result = 0;
+      int buffer = 0;
+
+      for(int i = 0; i < 20; i++){
+        for(int j = 0; j < 20; j++){
+
+          /*
+          Faire produit ligne, comparer a diags et colonne pas à pas if x & y < 17
+          sinon on fait ce qui est possible dans les limites de la table
+          */
+          
+        }
+      }
+
         Console.WriteLine("Hello World");
         Console.ReadKey();
+    }
+
+    static int Produit(int num1,int num2,int num3,int num4){
+      return num1 * num2 * num3 * num4;
     }
   }
 }
