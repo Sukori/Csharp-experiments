@@ -88,8 +88,17 @@ namespace ProjectEuler
       int result = 0;
       int buffer = 0;
 
-      for(int i = 0; i < 20; i++){
-        for(int j = 0; j < 20; j++){
+      for(int x = 0; x < 20; x++){
+        for(int y = 0; y < 20; y++){
+
+          switch (tableau[x,y]){
+            case tableau[x+3,y] == 0:
+              x += 4;
+              break;
+            case tableau[x, y+3] == 0:
+              y += 4;
+              break;
+          }
 
           /*
           Faire produit ligne, comparer a diags et colonne pas à pas if x & y < 17
