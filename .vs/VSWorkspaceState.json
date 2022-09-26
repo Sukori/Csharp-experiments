@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\projectInitTemplate"
+    "\\ProjectEuler"
   ],
-  "SelectedNode": "\\projectInitTemplate\\Program.cs",
+  "SelectedNode": "\\ProjectEuler\\Problem11.cs",
   "PreviewInSolutionExplorer": false
 }

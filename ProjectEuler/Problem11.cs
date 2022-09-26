@@ -35,6 +35,7 @@ Bruteforce : On parcourt la grille en passant en paramètre chaque nombre, et po
 array[x, y]
 if x > 17 : ne plus faire ligne ni diagonale. On peut continuer verticale
 if y > 17 : ne plus faire colonne ni diagonale, mais on peut encore faire ligne
+if y < 3 : ne pas faire diag haut
 
 if array[x,y] == 0 : skip
 
@@ -85,35 +86,37 @@ namespace ProjectEuler
 
     static void Main(string[] args)
     {
-      int result = 0;
-      int buffer = 0;
+        int result = 0;
+        int bufferLigne, bufferDiagHaut, bufferDiagBas, bufferColonne;
 
-      for(int x = 0; x < 20; x++){
-        for(int y = 0; y < 20; y++){
+        bufferLigne = bufferDiagHaut = bufferDiagBas = bufferColonne = 0;
 
-          switch (tableau[x,y]){
-            case tableau[x+3,y] == 0:
-              x += 4;
-              break;
-            case tableau[x, y+3] == 0:
-              y += 4;
-              break;
-          }
+        for(int x = 0; x < 20; x++) {
+            for(int y = 0; y < 20; y++) {
 
-          /*
-          Faire produit ligne, comparer a diags et colonne pas à pas if x & y < 17
-          sinon on fait ce qui est possible dans les limites de la table
-          */
-          
+                if(x < 17){
+                    bufferLigne = tableau[x,y] * tableau[x+1,y] * tableau[x+2,y] * tableau[x+3,y];
+                }
+
+                if(y > 2 && x < 17){
+                    bufferDiagHaut = tableau[x,y] * tableau[x+1,y-1] * tableau[x+2,y-2] * tableau[x+3,y-3];
+                }
+
+                if(x < 17 && y < 17){
+                    bufferDiagBas = tableau[x,y] * tableau[x+1,y+1] * tableau[x+2,y+2] * tableau[x+3,y+3];
+                }
+
+                if(y < 17){
+                    bufferColonne = tableau[x,y] * tableau[x,y+1] * tableau[x,y+2] * tableau[x,y+3];
+                }
+
+                result = bufferLigne > result ? bufferLigne : bufferDiagHaut > result ? bufferDiagHaut : bufferDiagBas > result ? bufferDiagBas : bufferColonne > result ? bufferColonne : result;
+
+            }
         }
-      }
 
-        Console.WriteLine("Hello World");
+        Console.WriteLine("Le plus grand produit de quatre nombres dans se tableau vaut : " + result);
         Console.ReadKey();
-    }
-
-    static int Produit(int num1,int num2,int num3,int num4){
-      return num1 * num2 * num3 * num4;
     }
   }
 }
