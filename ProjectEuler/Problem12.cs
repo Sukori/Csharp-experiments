@@ -4,9 +4,9 @@ namespace ProjectEuler
 {
     class Problem12
     {
-        static void p12()
+        static void HighlyDivisibleTriangularNumber()
         {
-            Console.WriteLine("Yo");
+            Console.WriteLine("P12");
             Console.ReadKey();
         }
     }
