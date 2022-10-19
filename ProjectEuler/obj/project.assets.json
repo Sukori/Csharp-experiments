@@ -1,11 +1,62 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Problem11/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Problem11.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Problem11.dll": {}
+        }
+      },
+      "Problem12/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Problem12.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Problem12.dll": {}
+        }
+      },
+      "Problem13/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Problem13.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Problem13.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Problem11/1.0.0": {
+      "type": "project",
+      "path": "../Problem11/Problem11.csproj",
+      "msbuildProject": "../Problem11/Problem11.csproj"
+    },
+    "Problem12/1.0.0": {
+      "type": "project",
+      "path": "../Problem12/Problem12.csproj",
+      "msbuildProject": "../Problem12/Problem12.csproj"
+    },
+    "Problem13/1.0.0": {
+      "type": "project",
+      "path": "../Problem13/Problem13.csproj",
+      "msbuildProject": "../Problem13/Problem13.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Problem11 >= 1.0.0",
+      "Problem12 >= 1.0.0",
+      "Problem13 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Sukori\\.nuget\\packages\\": {}
@@ -33,7 +84,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem11\\Problem11.csproj": {
+              "projectPath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem11\\Problem11.csproj"
+            },
+            "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem12\\Problem12.csproj": {
+              "projectPath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem12\\Problem12.csproj"
+            },
+            "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem13\\Problem13.csproj": {
+              "projectPath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem13\\Problem13.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

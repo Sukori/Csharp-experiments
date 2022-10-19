@@ -1,0 +1,12 @@
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\Problem11\bin\Debug\net6.0\Problem11.deps.json
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\Problem11\bin\Debug\net6.0\Problem11.dll
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\Problem11\bin\Debug\net6.0\Problem11.pdb
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\Problem11\obj\Debug\net6.0\Problem11.csproj.AssemblyReference.cache
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\Problem11\obj\Debug\net6.0\Problem11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\Problem11\obj\Debug\net6.0\Problem11.AssemblyInfoInputs.cache
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\Problem11\obj\Debug\net6.0\Problem11.AssemblyInfo.cs
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\Problem11\obj\Debug\net6.0\Problem11.csproj.CoreCompileInputs.cache
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\Problem11\obj\Debug\net6.0\Problem11.dll
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\Problem11\obj\Debug\net6.0\refint\Problem11.dll
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\Problem11\obj\Debug\net6.0\Problem11.pdb
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\Problem11\obj\Debug\net6.0\ref\Problem11.dll

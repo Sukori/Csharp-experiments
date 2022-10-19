@@ -2,10 +2,16 @@ using System;
 
 namespace ProjectEuler
 {
-    class Start
+    public class Start
     {
-        static void Main(string[] args)
+
+        public static void Main()
         {
+
+            Problem11 problem11 = new();
+            Problem12 problem12 = new();
+            Problem13 problem13 = new();
+
             Console.WriteLine("Choisissez le numéro du problème à résoudre:" +
                 "\n 11: Largest product in a grid" +
                 "\n 12: Highly divisible triangular number");
@@ -22,6 +28,21 @@ namespace ProjectEuler
             }
 
             Console.WriteLine("selected " + userSelection);
+
+            switch (int.Parse(userSelection))
+            {
+                case 11:
+                    problem11.LargestProductInAGrid();
+                    break;
+                
+                case 12:
+                    problem12.HighlyDivisibleTriangularNumber();
+                    break;
+                default:
+                    Console.WriteLine("Veuillez choisir un nombre de la liste.");
+                    //Application.Restart();
+                    break;
+            }
         }
 
         static bool TestUserSelect(string input)

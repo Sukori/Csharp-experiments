@@ -28,3 +28,10 @@ C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\Project
 C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\obj\Debug\net6.0\ProjectEuler.pdb
 C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\obj\Debug\net6.0\ProjectEuler.genruntimeconfig.cache
 C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\obj\Debug\net6.0\ref\ProjectEuler.dll
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\bin\Debug\net6.0\Problem11.dll
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\bin\Debug\net6.0\Problem12.dll
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\bin\Debug\net6.0\Problem13.dll
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\bin\Debug\net6.0\Problem11.pdb
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\bin\Debug\net6.0\Problem12.pdb
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\bin\Debug\net6.0\Problem13.pdb
+C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\obj\Debug\net6.0\ProjectEuler.csproj.CopyComplete

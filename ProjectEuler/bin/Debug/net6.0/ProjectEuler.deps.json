@@ -7,14 +7,49 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "ProjectEuler/1.0.0": {
+        "dependencies": {
+          "Problem11": "1.0.0",
+          "Problem12": "1.0.0",
+          "Problem13": "1.0.0"
+        },
         "runtime": {
           "ProjectEuler.dll": {}
+        }
+      },
+      "Problem11/1.0.0": {
+        "runtime": {
+          "Problem11.dll": {}
+        }
+      },
+      "Problem12/1.0.0": {
+        "runtime": {
+          "Problem12.dll": {}
+        }
+      },
+      "Problem13/1.0.0": {
+        "runtime": {
+          "Problem13.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ProjectEuler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Problem11/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Problem12/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Problem13/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

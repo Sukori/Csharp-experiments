@@ -55,15 +55,14 @@ int[,] array = new int[20, 20] {{08, 02, ..., 08},{49, 49, ..., 00}, ...};
 Un poil relou, mais well. On a la liste. Je ne vois pas trop comment ne pas bruteforce.
 
 */
-
 using System;
 
 namespace ProjectEuler
 {
-  class Problem11
-  {
+    public class Problem11
+    {
 
-    static int[,] tableau = new int[20,20] {{08, 02, 22, 97, 38, 15, 00, 40, 00, 75, 04, 05, 07, 78, 52, 12, 50, 77, 91, 08,},
+        static int[,] tableau = new int[20, 20] {{08, 02, 22, 97, 38, 15, 00, 40, 00, 75, 04, 05, 07, 78, 52, 12, 50, 77, 91, 08,},
                                       {49, 49, 99, 40, 17, 81, 18, 57, 60, 87, 17, 40, 98, 43, 69, 48, 04, 56, 62, 00},
                                       {81, 49, 31, 73, 55, 79, 14, 29, 93, 71, 40, 67, 53, 88, 30, 03, 49, 13, 36, 65},
                                       {52, 70, 95, 23, 04, 60, 11, 42, 69, 24, 68, 56, 01, 32, 56, 71, 37, 02, 36, 91},
@@ -84,39 +83,45 @@ namespace ProjectEuler
                                       {20, 73, 35, 29, 78, 31, 90, 01, 74, 31, 49, 71, 48, 86, 81, 16, 23, 57, 05, 54},
                                       {01, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 01, 89, 19, 67, 48}};
 
-    static void LargestProductInAGrid()
-    {
-        int result = 0;
-        int bufferLigne, bufferDiagHaut, bufferDiagBas, bufferColonne;
+        public void LargestProductInAGrid()
+        {
+            int result = 0;
+            int bufferLigne, bufferDiagHaut, bufferDiagBas, bufferColonne;
 
-        bufferLigne = bufferDiagHaut = bufferDiagBas = bufferColonne = 0;
+            bufferLigne = bufferDiagHaut = bufferDiagBas = bufferColonne = 0;
 
-        for(int x = 0; x < 20; x++) {
-            for(int y = 0; y < 20; y++) {
+            for (int x = 0; x < 20; x++)
+            {
+                for (int y = 0; y < 20; y++)
+                {
 
-                if(x < 17){
-                    bufferLigne = tableau[x,y] * tableau[x+1,y] * tableau[x+2,y] * tableau[x+3,y];
+                    if (x < 17)
+                    {
+                        bufferLigne = tableau[x, y] * tableau[x + 1, y] * tableau[x + 2, y] * tableau[x + 3, y];
+                    }
+
+                    if (y > 2 && x < 17)
+                    {
+                        bufferDiagHaut = tableau[x, y] * tableau[x + 1, y - 1] * tableau[x + 2, y - 2] * tableau[x + 3, y - 3];
+                    }
+
+                    if (x < 17 && y < 17)
+                    {
+                        bufferDiagBas = tableau[x, y] * tableau[x + 1, y + 1] * tableau[x + 2, y + 2] * tableau[x + 3, y + 3];
+                    }
+
+                    if (y < 17)
+                    {
+                        bufferColonne = tableau[x, y] * tableau[x, y + 1] * tableau[x, y + 2] * tableau[x, y + 3];
+                    }
+
+                    result = bufferLigne > result ? bufferLigne : bufferDiagHaut > result ? bufferDiagHaut : bufferDiagBas > result ? bufferDiagBas : bufferColonne > result ? bufferColonne : result;
+
                 }
-
-                if(y > 2 && x < 17){
-                    bufferDiagHaut = tableau[x,y] * tableau[x+1,y-1] * tableau[x+2,y-2] * tableau[x+3,y-3];
-                }
-
-                if(x < 17 && y < 17){
-                    bufferDiagBas = tableau[x,y] * tableau[x+1,y+1] * tableau[x+2,y+2] * tableau[x+3,y+3];
-                }
-
-                if(y < 17){
-                    bufferColonne = tableau[x,y] * tableau[x,y+1] * tableau[x,y+2] * tableau[x,y+3];
-                }
-
-                result = bufferLigne > result ? bufferLigne : bufferDiagHaut > result ? bufferDiagHaut : bufferDiagBas > result ? bufferDiagBas : bufferColonne > result ? bufferColonne : result;
-
             }
-        }
 
-        Console.WriteLine("Le plus grand produit de quatre nombres dans se tableau vaut : " + result);
-        Console.ReadKey();
+            Console.WriteLine("Le plus grand produit de quatre nombres dans se tableau vaut : " + result);
+            Console.ReadKey();
+        }
     }
-  }
 }
