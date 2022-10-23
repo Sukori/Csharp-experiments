@@ -17,37 +17,111 @@ We can see that 28 is the first triangle number to have over five divisors.
 
 What is the value of the first triangle number to have over five hundred divisors?
 
-Donc pour résoudre ça, on commence par faire une somme.
-Ici, on accept les diviseurs jusqu'au nombre lui-même, on veut tous les diviseurs du nombre et on cherche le premier qui a plus de 500 diviseurs.
-Il faut que le nombre soit au moins un multiple de 2 ET 3, pour garder un max de possibilités.
+Ici, on accept les diviseurs depuis 1 jusqu'au nombre lui-même, on veut tous les diviseurs du nombre et on cherche le premier qui a plus de 500 diviseurs.
 
-Pour économiser du temps: on compte maximum 501 diviseurs (over five hundred divisors) puis on stoppe. On n'a pas besoin de la liste complète...
+On a la formule n * (n+1)/2 qui calcule le n-ième nombre entier
 
-On devrait ignorer des tas de nombres comme les nombres premiers ou les multiples de 5 qui font de mauvais candidats, mais on perdrait plus de temps à vérifier si un nombre et premier plutôt que juste le tester. Bon ignorer un modulo 5 ou 10, ça semble pas si bête. On ignore des mauvais candidats assez vite...
-
-Bref, step by step:
-On prend la variable d'incrément du triangle qui démarre à 2
-On initie un compteur à 0
-@ : On commence par compter les diviseurs de 1 -> compteur = 1
+Bruteforce:
+On prend la valeur du triangle qui démarre à 1
+@ : On commence par compter les diviseurs du nombre triangle*(triangle+1)/2
 Test si le compteur est > 500
     si oui, log le triangle
     si non
-        on réinitialise le compteur de diviseurs
-        on incrémente le triangle par son incrémenteur
-        incrémenteur ++
-        @ : On recommence à compter les diviseurs du nouveau triangle
+        on incrémente le triangle de 1
+        @ : On recommence à compter les diviseurs du nouveau triangle*(triangle+1)/2
+
+--> Cette façon de faire prend plus de 20 minutes !!!
+
+On peut faire avec n*(n+1)/2 en séparant ainsi:
+Diviseurs de (n/2) * diviseurs de (n+1) si n est pair
+Diviseurs de (n) * diviseurs de ((n+1)/2) si n est impair
+
+Chercher les diviseurs de deux petits nombres va plus vite que tous les diviseurs d'un gros nombre.
+
+On peut aussi faire avec les prime factors.
+Il faut juste savoir que ça donne un truc comme p1**a1 * p2**a2 * ... * pn**an qui est la suite de prime factors avec leurs puissances nous amène à:
+(a1+1)*(a2+1)*...*(an+1) = nombre total de diviseurs du nombre. donc le Problème 3 Largest prime factore peut aider si on le modifie un peu pour garder tous les prime factors et pas juste le plus grand.
+
+Merci Wolfram, je sais que le résultat est 2^2 × 3^2 × 5^3 × 7 × 11 × 13 × 17 = 76'576'500 le 12'375-ième triangular number
+
+qui a 3*3*4*2*2*2*2 = 576 diviseurs
+
 */
 
 using System;
+using System.Numerics;
 
 namespace ProjectEuler
 {
     public class Problem12
     {
-        public void HighlyDivisibleTriangularNumber()
+        public static void HighlyDivisibleTriangularNumber()
         {
-            Console.WriteLine("P12");
-            Console.ReadKey();
+            List<int> primeFactors = new() { 2, 3 };
+            int divCount = 1;
+            int[] triangular = new int[2] { 0, 0 };
+            int triangularStep = 1;
+            int result;
+            int divCountTrig1, divCountTrig2;
+
+
+            while (divCount < 500)
+            {
+                triangularStep++;
+                triangular = MakeNombre(triangularStep);
+
+                divCountTrig1 = CountDivisors(primeFactors, triangular[0], 0, 1);
+                divCountTrig2 = CountDivisors(primeFactors, triangular[1], 0, 1);
+                divCount = (divCountTrig1) * (divCountTrig2);
+            }
+
+            result = triangular[0] * triangular[1];
+
+            Console.WriteLine($"On a fini pour {result} composé par {triangular[0]} x {triangular[1]} qui est le {triangularStep} ieme triangular et qui a {divCount} diviseurs");
+        }
+
+        private static int[] MakeNombre(int n)
+        {
+            if (n % 2 == 0) { return new int[] { n/2, n+1 }; }
+            else { return new int[] { n, (n+1)/2 }; }
+        }
+
+        private static bool IsPrime(int diviseurAtest)
+        {
+            for (int j = 5; j <= Math.Sqrt(diviseurAtest); j += 6)
+            {
+                if (diviseurAtest % j == 0)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        private static int CountDivisors(List<int> primeFactors, int n, int listPosition, int countFactors)
+        {
+            int currentCount = 0;
+            while (n > 1 && listPosition < primeFactors.Count)
+            {
+                if (n % primeFactors[listPosition] == 0)
+                {
+                    currentCount++;
+                    n /= primeFactors[listPosition];
+                }
+                else
+                {
+                    listPosition++;
+                    countFactors *= currentCount + 1;
+                    currentCount = 0;
+                }
+            }
+
+            if (n > 1)
+            {
+                primeFactors.Add(n);
+            }
+
+            return countFactors *= 2;
         }
     }
 }
