@@ -11,9 +11,8 @@ namespace ProjectEuler
             Problem11 problem11 = new();
             Problem12 problem12 = new();
             Problem13 problem13 = new();
-            //var info = new System.Diagnostics.ProcessStartInfo(Environment.GetCommandLineArgs()[0]);
 
-            Console.WriteLine("Choisissez le num�ro du probl�me � r�soudre:" +
+            Console.WriteLine("Choisissez le numero du probleme a resoudre:" +
                 "\n 11: Largest product in a grid" +
                 "\n 12: Highly divisible triangular number");
 
@@ -21,28 +20,26 @@ namespace ProjectEuler
 
             while (!TestUserSelect(userSelection))
             {
-                Console.WriteLine("Choisissez le num�ro du probl�me � r�soudre:" +
+                Console.WriteLine("Choisissez le num�ro du probleme a resoudre:" +
                 "\n 11: Largest product in a grid" +
                 "\n 12: Highly divisible triangular number");
 
                 userSelection = Console.ReadLine();
             }
 
-            Console.WriteLine("selected " + userSelection);
+            Console.WriteLine("\nselected " + userSelection + "\n");
 
             switch (int.Parse(userSelection))
             {
                 case 11:
-                    problem11.LargestProductInAGrid();
+                    Problem11.LargestProductInAGrid();
                     break;
                 
                 case 12:
-                    problem12.HighlyDivisibleTriangularNumber();
+                    Problem12.HighlyDivisibleTriangularNumber();
                     break;
                 default:
                     Console.WriteLine("Veuillez choisir un nombre de la liste.");
-                    
-                    //System.Diagnostics.Process.Start(info);
                     break;
             }
         }
