@@ -19,7 +19,7 @@ What is the value of the first triangle number to have over five hundred divisor
 
 Ici, on accept les diviseurs depuis 1 jusqu'au nombre lui-même, on veut tous les diviseurs du nombre et on cherche le premier qui a plus de 500 diviseurs.
 
-On a la formule n * (n+1)/2 qui calcule le n-ième nombre entier
+On a la formule n * (n+1)/2 qui calcule le n-ième nombre triangle
 
 Bruteforce:
 On prend la valeur du triangle qui démarre à 1
@@ -40,7 +40,7 @@ Chercher les diviseurs de deux petits nombres va plus vite que tous les diviseur
 
 On peut aussi faire avec les prime factors.
 Il faut juste savoir que ça donne un truc comme p1**a1 * p2**a2 * ... * pn**an qui est la suite de prime factors avec leurs puissances nous amène à:
-(a1+1)*(a2+1)*...*(an+1) = nombre total de diviseurs du nombre. donc le Problème 3 Largest prime factore peut aider si on le modifie un peu pour garder tous les prime factors et pas juste le plus grand.
+(a1+1)*(a2+1)*...*(an+1) = nombre total de diviseurs du nombre. donc le Problème 3 Largest prime factor peut aider si on le modifie un peu pour garder tous les prime factors et pas juste le plus grand.
 
 Merci Wolfram, je sais que le résultat est 2^2 × 3^2 × 5^3 × 7 × 11 × 13 × 17 = 76'576'500 le 12'375-ième triangular number
 
@@ -84,18 +84,6 @@ namespace ProjectEuler
         {
             if (n % 2 == 0) { return new int[] { n/2, n+1 }; }
             else { return new int[] { n, (n+1)/2 }; }
-        }
-
-        private static bool IsPrime(int diviseurAtest)
-        {
-            for (int j = 5; j <= Math.Sqrt(diviseurAtest); j += 6)
-            {
-                if (diviseurAtest % j == 0)
-                {
-                    return false;
-                }
-            }
-            return true;
         }
 
         private static int CountDivisors(List<int> primeFactors, int n, int listPosition, int countFactors)
