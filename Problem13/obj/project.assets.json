@@ -8,26 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Sukori\\.nuget\\packages\\": {}
+    "C:\\Users\\pberset\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem13\\Problem13.csproj",
+      "projectUniqueName": "C:\\Users\\pberset\\cernbox\\Documents\\_Mon Learning\\project euler\\csharp\\Csharp-experiments\\Problem13\\Problem13.csproj",
       "projectName": "Problem13",
-      "projectPath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem13\\Problem13.csproj",
-      "packagesPath": "C:\\Users\\Sukori\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem13\\obj\\",
+      "projectPath": "C:\\Users\\pberset\\cernbox\\Documents\\_Mon Learning\\project euler\\csharp\\Csharp-experiments\\Problem13\\Problem13.csproj",
+      "packagesPath": "C:\\Users\\pberset\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pberset\\cernbox\\Documents\\_Mon Learning\\project euler\\csharp\\Csharp-experiments\\Problem13\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sukori\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\pberset\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
