@@ -10,7 +10,8 @@
         "dependencies": {
           "Problem11": "1.0.0",
           "Problem12": "1.0.0",
-          "Problem13": "1.0.0"
+          "Problem13": "1.0.0",
+          "Problem14": "1.0.0"
         },
         "runtime": {
           "ProjectEuler.dll": {}
@@ -29,6 +30,11 @@
       "Problem13/1.0.0": {
         "runtime": {
           "Problem13.dll": {}
+        }
+      },
+      "Problem14/1.0.0": {
+        "runtime": {
+          "Problem14.dll": {}
         }
       }
     }
@@ -50,6 +56,11 @@
       "sha512": ""
     },
     "Problem13/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Problem14/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

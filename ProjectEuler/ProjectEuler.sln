@@ -5,11 +5,13 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectEuler", "ProjectEuler.csproj", "{46BEDA9B-C4C9-451B-B446-D32D0321C642}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem13", "..\Problem13\Problem13.csproj", "{3F66B819-CAB2-4BE1-9E05-5168B275AB75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem13", "..\Problem13\Problem13.csproj", "{3F66B819-CAB2-4BE1-9E05-5168B275AB75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem11", "..\Problem11\Problem11.csproj", "{CF38E0E2-4851-496C-8074-4FEB95BD86A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem11", "..\Problem11\Problem11.csproj", "{CF38E0E2-4851-496C-8074-4FEB95BD86A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem12", "..\Problem12\Problem12.csproj", "{27AEB90A-E15E-41C4-AFE7-8424958005E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem12", "..\Problem12\Problem12.csproj", "{27AEB90A-E15E-41C4-AFE7-8424958005E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem14", "..\Problem14\Problem14.csproj", "{4760032E-A6D6-4FB3-915A-EF4EAE5A7444}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{27AEB90A-E15E-41C4-AFE7-8424958005E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27AEB90A-E15E-41C4-AFE7-8424958005E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27AEB90A-E15E-41C4-AFE7-8424958005E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4760032E-A6D6-4FB3-915A-EF4EAE5A7444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4760032E-A6D6-4FB3-915A-EF4EAE5A7444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4760032E-A6D6-4FB3-915A-EF4EAE5A7444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4760032E-A6D6-4FB3-915A-EF4EAE5A7444}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

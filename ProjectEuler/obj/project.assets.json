@@ -31,6 +31,16 @@
         "runtime": {
           "bin/placeholder/Problem13.dll": {}
         }
+      },
+      "Problem14/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Problem14.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Problem14.dll": {}
+        }
       }
     }
   },
@@ -49,13 +59,19 @@
       "type": "project",
       "path": "../Problem13/Problem13.csproj",
       "msbuildProject": "../Problem13/Problem13.csproj"
+    },
+    "Problem14/1.0.0": {
+      "type": "project",
+      "path": "../Problem14/Problem14.csproj",
+      "msbuildProject": "../Problem14/Problem14.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Problem11 >= 1.0.0",
       "Problem12 >= 1.0.0",
-      "Problem13 >= 1.0.0"
+      "Problem13 >= 1.0.0",
+      "Problem14 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -93,6 +109,9 @@
             },
             "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem13\\Problem13.csproj": {
               "projectPath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem13\\Problem13.csproj"
+            },
+            "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem14\\Problem14.csproj": {
+              "projectPath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem14\\Problem14.csproj"
             }
           }
         }

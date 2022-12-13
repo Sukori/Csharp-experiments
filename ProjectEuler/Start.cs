@@ -7,15 +7,12 @@ namespace ProjectEuler
 
         public static void Main()
         {
-            //Besoin de ça maintenant?
-            Problem11 problem11 = new();
-            Problem12 problem12 = new();
-            Problem13 problem13 = new();
 
             Console.WriteLine("Choisissez le numero du probleme a resoudre:" +
                 "\n 11: Largest product in a grid" +
                 "\n 12: Highly divisible triangular number" +
-                "\n 13: Large sum");
+                "\n 13: Large sum" +
+                "\n 14: Longest");
 
             string userSelection = Console.ReadLine();
 
@@ -42,6 +39,9 @@ namespace ProjectEuler
                     break;
                 case 13:
                     Problem13.LargeSum();
+                    break;
+                case 14:
+                    Problem14.Longest();
                     break;
                 default:
                     Console.WriteLine("Veuillez choisir un nombre de la liste.");
