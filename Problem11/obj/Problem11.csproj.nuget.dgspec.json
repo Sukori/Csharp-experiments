@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem11\\Problem11.csproj": {}
+    "C:\\Users\\pberset\\cernbox\\Documents\\_Mon Learning\\project euler\\csharp\\Csharp-experiments\\Problem11\\Problem11.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem11\\Problem11.csproj": {
+    "C:\\Users\\pberset\\cernbox\\Documents\\_Mon Learning\\project euler\\csharp\\Csharp-experiments\\Problem11\\Problem11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem11\\Problem11.csproj",
+        "projectUniqueName": "C:\\Users\\pberset\\cernbox\\Documents\\_Mon Learning\\project euler\\csharp\\Csharp-experiments\\Problem11\\Problem11.csproj",
         "projectName": "Problem11",
-        "projectPath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem11\\Problem11.csproj",
-        "packagesPath": "C:\\Users\\Sukori\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\Problem11\\obj\\",
+        "projectPath": "C:\\Users\\pberset\\cernbox\\Documents\\_Mon Learning\\project euler\\csharp\\Csharp-experiments\\Problem11\\Problem11.csproj",
+        "packagesPath": "C:\\Users\\pberset\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pberset\\cernbox\\Documents\\_Mon Learning\\project euler\\csharp\\Csharp-experiments\\Problem11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sukori\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\pberset\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

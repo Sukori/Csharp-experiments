@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "kj+fAu5uWJPslOta5QrDcyRoESeNGPktgdcMEYuqAESMZfvfLknroRAkyf6k0bJypps6YXdWNSRDVoUWDFyk7g==",
+=======
+  "dgSpecHash": "rUg6MWeEf56S4eNekwiFE+0foMM6Gp8XGP7U6+9bWeIzef6MjyFaz5mNDyjnyCHEfITaswblyGdGGzWNJHnbIg==",
+>>>>>>> 83b9ea18ebadd8b03156565189665444f63b27e5
   "success": true,
-  "projectFilePath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\CsharpProject Euler\\ProjectEuler\\ProjectEuler.csproj",
+  "projectFilePath": "C:\\Users\\pberset\\cernbox\\Documents\\_Mon Learning\\project euler\\csharp\\Csharp-experiments\\ProjectEuler\\ProjectEuler.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -57,8 +57,11 @@ C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-exp
 C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\ProjectEuler\obj\Debug\net6.0\ProjectEuler.pdb
 C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\ProjectEuler\obj\Debug\net6.0\ProjectEuler.genruntimeconfig.cache
 C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\ProjectEuler\obj\Debug\net6.0\ref\ProjectEuler.dll
+<<<<<<< HEAD
 C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\bin\Debug\net6.0\Problem14.deps.json
 C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\bin\Debug\net6.0\Problem14.runtimeconfig.json
 C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\bin\Debug\net6.0\Problem14.exe
 C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\bin\Debug\net6.0\Problem14.dll
 C:\Users\Sukori\Documents\cours programmation\Csharp\CsharpProject Euler\ProjectEuler\bin\Debug\net6.0\Problem14.pdb
+=======
+>>>>>>> 83b9ea18ebadd8b03156565189665444f63b27e5
