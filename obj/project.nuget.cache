@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GqJyGj3F7nZ9iJD3iXSLDBoNqFtyLlwGreArgOGqLJvNjSGqNcPGbAeZGg8/ztpquX0tc8UpM7jRABQvvWnL7w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pberset\\cernbox\\Documents\\_Mon Learning\\project euler\\csharp\\Csharp-experiments\\ProjectEuler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pberset\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\pberset\\.nuget\\packages\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers\\0.4.355802\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers.0.4.355802.nupkg.sha512",
+    "C:\\Users\\pberset\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

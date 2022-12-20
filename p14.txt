@@ -1,0 +1,24 @@
+/*
+
+The following iterative sequence is defined for the set of positive integers:
+
+n → n/2 (n is even)
+n → 3n + 1 (n is odd)
+
+Using the rule above and starting with 13, we generate the following sequence:
+13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1
+
+It can be seen that this sequence (starting at 13 and finishing at 1) contains 10 terms. Although it has not been proved yet (Collatz Problem), it is thought that all starting numbers finish at 1.
+
+Which starting number, under one million, produces the longest chain?
+
+NOTE: Once the chain starts the terms are allowed to go above one million.
+
+
+Bruteforce: on démarre à 1 et on fait tous les entiers jusque 999'999. Et on compte à chaque fois le nombre de steps. Il suffit de stocker le nombre de départ et le nombre de steps associé.
+
+Est-ce qu'il n'y aurait pas moyen que les nombres premiers aient une suite plus grande ? à priori, un nombre impair va toujours faire monter la suite alors que les pairs la feront descendre. Il faut maximiser les chances de tomber sur un nombre pair qui, divisé par 2, ramène à un nombre impair.
+
+
+
+ */

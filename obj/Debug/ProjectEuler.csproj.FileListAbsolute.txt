@@ -1,0 +1,16 @@
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\newProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe.config
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\newProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\newProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.pdb
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\newProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.csproj.AssemblyReference.cache
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\newProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.csproj.SuggestedBindingRedirects.cache
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\newProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.csproj.CoreCompileInputs.cache
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\newProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.exe
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\newProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.pdb
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\bin\Debug\ProjectEuler.exe.config
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\bin\Debug\ProjectEuler.exe
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\bin\Debug\ProjectEuler.pdb
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\obj\Debug\ProjectEuler.csproj.AssemblyReference.cache
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\obj\Debug\ProjectEuler.csproj.SuggestedBindingRedirects.cache
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\obj\Debug\ProjectEuler.csproj.CoreCompileInputs.cache
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\obj\Debug\ProjectEuler.exe
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\obj\Debug\ProjectEuler.pdb

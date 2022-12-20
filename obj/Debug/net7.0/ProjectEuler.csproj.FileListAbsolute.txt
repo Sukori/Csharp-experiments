@@ -1,0 +1,14 @@
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\bin\Debug\net7.0\ProjectEuler.exe
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\bin\Debug\net7.0\ProjectEuler.dll.config
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\bin\Debug\net7.0\ProjectEuler.deps.json
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\bin\Debug\net7.0\ProjectEuler.runtimeconfig.json
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\bin\Debug\net7.0\ProjectEuler.dll
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\bin\Debug\net7.0\ProjectEuler.pdb
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\obj\Debug\net7.0\ProjectEuler.csproj.AssemblyReference.cache
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\obj\Debug\net7.0\ProjectEuler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\obj\Debug\net7.0\ProjectEuler.csproj.CoreCompileInputs.cache
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\obj\Debug\net7.0\ProjectEuler.dll
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\obj\Debug\net7.0\refint\ProjectEuler.dll
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\obj\Debug\net7.0\ProjectEuler.pdb
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\obj\Debug\net7.0\ProjectEuler.genruntimeconfig.cache
+C:\Users\pberset\cernbox\Documents\_Mon Learning\project euler\csharp\Csharp-experiments\obj\Debug\net7.0\ref\ProjectEuler.dll
