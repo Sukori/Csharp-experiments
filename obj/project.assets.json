@@ -150,24 +150,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pberset\\.nuget\\packages\\": {}
+    "C:\\Users\\Sukori\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pberset\\cernbox\\Documents\\_Mon Learning\\project euler\\csharp\\Csharp-experiments\\ProjectEuler.csproj",
+      "projectUniqueName": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\Csharp-experiments\\ProjectEuler.csproj",
       "projectName": "ProjectEuler",
-      "projectPath": "C:\\Users\\pberset\\cernbox\\Documents\\_Mon Learning\\project euler\\csharp\\Csharp-experiments\\ProjectEuler.csproj",
-      "packagesPath": "C:\\Users\\pberset\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pberset\\cernbox\\Documents\\_Mon Learning\\project euler\\csharp\\Csharp-experiments\\obj\\",
+      "projectPath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\Csharp-experiments\\ProjectEuler.csproj",
+      "packagesPath": "C:\\Users\\Sukori\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sukori\\Documents\\cours programmation\\Csharp\\Csharp-experiments\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pberset\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Sukori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
